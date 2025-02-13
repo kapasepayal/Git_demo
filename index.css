@@ -1,0 +1,70 @@
+.container-fluid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: red;
+}
+
+.row{
+    /* height: 100vh; */
+}
+.one{
+    margin-top: 15rem;
+}
+.two{
+    margin-top: 6rem;
+}
+.heading{
+    /* border: 2px solid black; */
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 6rem;
+    
+    /* border-radius: 23px; */
+}
+h1{
+   font-size:  calc(2.375rem + 1.5vw);
+}
+h6{
+    font-size: 1.04rem;
+}
+
+img{
+    width: 34rem;
+    height: 27rem;
+    border-radius: 15px;
+}
+.footer{
+    background-color: black;
+   margin-top: 5rem;
+   margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+  
+}
+li{
+    list-style: none;
+    /* margin-left: 3rem; */
+    padding: 0 2rem 0;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.navbar-nav li{
+    font-size: 20px;
+}
+.navbar-nav li:hover{
+    color: white;
+    
+    background-color: gray;
+    border-radius: 3px;
+    padding: 1px;
+}
